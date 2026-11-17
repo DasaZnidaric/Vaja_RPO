@@ -1,0 +1,26 @@
+/*footer prvi del*/
+footer p{
+    font-size: 20px !important;
+    color: white !important;
+}
+
+/*footer meniji*/
+footer .nav-link{
+    font-size: 20px !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+
+/*footer meniji style na hover*/
+footer .nav-link:hover{
+    color: red !important;
+    text-decoration: underline !important;
+    text-decoration-color: #6c757d !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 10px !important;
+}
+
+/*footer meniji font*/
+footer {
+    font-family:"Font", sans-serif;
+  }

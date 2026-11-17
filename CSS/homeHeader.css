@@ -1,0 +1,121 @@
+/* Velikost headerja - za navbara da kontent ne gre za njega*/
+header{
+  padding-top: 100px;
+}
+
+/* Navbar stil + stil za texst znotraj navbara */
+header nav.navbar{
+    height:  100px;
+    font-size: 18px;
+    background-color: black !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Navbar meniji hover */
+header nav.navbar .nav-link:hover{
+    color: red;
+}
+
+/* Navbar meniji stil */
+header .nav-link{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+
+/* Background za meni */
+.container-fluid{
+  background-color: black;
+}
+
+/* Navbar meniji hover */
+header .nav-link:hover {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+
+/* Shopping cart ikona hover */
+header .fa-cart-shopping:hover{
+    color: red;
+}
+ 
+/* Navbar searchbar iskanje */
+header .form-control {
+    border: none;
+    border-radius: 20px;
+    background-color: #1d1d1d;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+/* Navbar searchbar iskanje klik */
+header .form-control:focus {
+    border-color: #292929;
+    background-color: #292929;
+    box-shadow: 0 0 0 0.15rem #570c0c !important;
+  }  
+
+/* Navbar searchbar iskanje hover */
+header .form-control:hover{
+    box-shadow: 0 0 0 0.15rem #8d0f0f;
+}
+
+/* Navbar gumb iskanje */
+header .btn-outline-secondary {
+    border-radius: 20px;
+    border: none;
+    background-color: #1D1D1D;
+    color: #fff;
+    padding: 8px 16px;
+    margin-left: -5px;
+    font-size: 14px;
+  }
+
+/* Navbar gumb iskanje hover */
+header .btn-outline-secondary:hover {
+    background-color: #292929;
+    transition: 0.3s;
+    box-shadow: 0 0 0 0.15rem #921212;
+  }
+
+/* Navbar desni logo izgine z barom */
+@media (max-width: 1200px) {
+  .d-lg-block {
+    display: none !important;
+  }
+}
+
+/* Navbar toggler meni */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .navbar-nav a {
+    display: inline-block;
+  }
+
+  .nav-link {
+    border: none;
+  }
+
+  form{
+    margin: auto;
+    position: relative;
+    top: 5px;
+  }
+  
+}
+
+
+
+  
+  
+
+  

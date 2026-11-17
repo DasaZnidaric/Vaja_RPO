@@ -1,0 +1,42 @@
+/* Doda background carsouel-u zato da se ne zmanjšuje */
+main .bg-img-1 {
+    background-image: url('../Slike/banner1.png');
+}
+    
+main .bg-img-2 {
+    background-image: url('../Slike/banner2.png');
+}
+    
+main .bg-img-3 {
+    background-image: url('../Slike/banner3.png');
+}
+
+main .carousel-image {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Doda mobile background carsouel-u zato da se ne zmanjšuje */
+@media (max-width: 991.98px) {
+    
+    main .bg-img-1 {
+        background-image: url('../Slike/banner1_mobile.png');
+    }
+
+    main .bg-img-2 {
+        background-image: url('../Slike/banner2_mobile.png');
+    }
+
+    main .bg-img-3 {
+        background-image: url('../Slike/banner3_mobile.png');
+    }
+
+    main .carousel-image {
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
