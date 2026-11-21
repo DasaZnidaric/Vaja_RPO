@@ -15,14 +15,6 @@ Naš projekt je spletna trgovina za prodajo oblačil, ki uporabnikom omogoča en
 - Izvedba spletnega plačila.
 - Administracija izdelkov in naročil.
 
-## Uporabljene tehnologije
-
-- **Frontend:** Angular
-- **Oblikovanje:** HTML, CSS, Bootstrap
-- **Backend:** Node.js
-- **Verzioniranje kode:** Git, GitHub
-- **Organizacija dela:** Trello
-
 
 ## Namestitev in zagon
 
